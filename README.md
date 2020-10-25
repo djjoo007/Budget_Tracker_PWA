@@ -1,4 +1,4 @@
-# Online-Offline_Budget_Tracker
+# Online Offline Budget Tracker
 
 This Budget Tracker application allows offline access and functionality.
 
