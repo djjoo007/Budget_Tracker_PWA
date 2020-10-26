@@ -1,4 +1,6 @@
 let db;
+
+//IndexedDB
 const indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
 
 const request = indexedDB.open('budget', 1);
@@ -15,10 +17,12 @@ request.onsuccess = function(event) {
     };
 };
 
+//Shows Error if exists
 request.onerror = function(event) {
     console.log('error:' + event.target.errorCode);
 };
 
+//Storing Transaction
 function saveRecord(record) {
     const transaction = db.transaction(['pending'], 'readwrite');
     const store = transaction.objectStore('pending');
