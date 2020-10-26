@@ -1,6 +1,6 @@
 let db;
 
-//IndexedDB
+//IndexedDB to store data
 const indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
 
 const request = indexedDB.open('budget', 1);
