@@ -26,6 +26,9 @@ When brought back online:
 
 ![](images/budget.png)
 
+Two Offline Transaction with One Online Transaction
+![](images/2offlinetransaction.png)
+
 ## Link to Deployed Site
 
 * https://stormy-ravine-99046.herokuapp.com/
